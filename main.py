@@ -1,4 +1,4 @@
-import PyMySQL
+import pymysql
 from app import app
 from db_config import mysql
 from flask import flash, render_template, request, redirect, url_for
