@@ -44,6 +44,10 @@ def save_user_info():
 @app.route('/')
 def home():
 	return render_template('multi-step-registration.html')
+
+@app.route('/about')
+def about():
+	return "<h1 style='color: red'>About</h1>"
 		
 if __name__ == "__main__":
     app.run()
